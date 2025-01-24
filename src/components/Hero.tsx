@@ -21,7 +21,7 @@ export const Hero = () => {
         <div className="flex flex-col md:flex-row items-center gap-8 text-center md:text-left">
           <div className="flex-1">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight bg-gradient-to-r from-primary to-blue-500 bg-clip-text text-transparent mb-6 font-poppins">
-              Developer Resources Hub
+              Dev Resources Hub
             </h1>
             <p className="text-xl text-muted-foreground max-w-[700px] mb-8 font-poppins">
               Curated collection of the best frontend and backend development resources to help you build amazing applications.
@@ -38,13 +38,6 @@ export const Hero = () => {
                 <Search className="h-4 w-4" />
               </Button>
             </form>
-          </div>
-          <div className="flex-1">
-            <img
-              src="/hero-image.png"
-              alt="Developer Resources"
-              className="w-full max-w-[500px] mx-auto drop-shadow-xl animate-fade-in"
-            />
           </div>
         </div>
       </div>

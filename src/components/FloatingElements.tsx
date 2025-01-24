@@ -38,13 +38,6 @@ export const FloatingElements = () => {
 
         <Tooltip>
           <TooltipTrigger asChild>
-            <Button
-              variant="outline"
-              size="icon"
-              className="rounded-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
-            >
-              <span className="text-sm font-medium">{greeting}</span>
-            </Button>
           </TooltipTrigger>
           <TooltipContent side="left">
             <p>Welcome to DevHub!</p>
